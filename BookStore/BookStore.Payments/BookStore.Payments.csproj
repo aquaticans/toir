@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreditCardSystemAPI.cs" />
     <Compile Include="PaymentPortal.cs" />
     <Compile Include="PayOnlineAPI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
