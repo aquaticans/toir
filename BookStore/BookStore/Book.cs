@@ -53,6 +53,14 @@ namespace Bookstore.Domain.Entities
             set { description = value; }
         }
 
+        private string isbnCode; // in Master
+
+        public string IsbnCode
+        {
+            get { return isbnCode; }
+            set { isbnCode = value; }
+        }
+
         #endregion
 
         #region Methods
